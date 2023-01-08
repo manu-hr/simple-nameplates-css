@@ -1,0 +1,58 @@
+/* Write CSS code here for nameplate-2 */
+body {
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(40,40,40);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+
+#headerList li {
+    display: inline-block;
+    margin-right: 40;
+}
+
+li >a {
+    color: white;
+    text-decoration: none;
+}
+
+#logo {
+    float: right;
+    color: white;
+    margin-right: 40;
+}
+
+#headerList {
+    display: block;
+    padding-inline-end: 40px;
+}
+
+#contact {
+    position: relative;
+    bottom: 2px;
+    float: center;
+    color: black;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(173,216,230);
+    border: 1px solid rgb(173,216,230);
+    border-radius: 8px;
+
+}
+
+#contact a {
+    color: black;
+}
+
+.listItems {
+    float: left;
+    margin-right: 40px;
+}
